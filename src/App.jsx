@@ -43,7 +43,7 @@ function App() {
     try {
       const response = await axios.post(
         // `http://0.0.0.0:8000/${type}`,
-        `https://ocr-backend-6lao.onrender.com/${type}`,
+        `https://ocr-backend-5p9n.onrender.com/${type}`,
         formData
       );
       console.log(response.data);
