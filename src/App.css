@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.beautiful-input-file {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background: #3498db;
+}
+
+#file-upload {
+  display: none;
+}
+
+.selected-file-info {
+  margin-top: 10px;
+}
+
+.file-name {
+  font-weight: bold;
+}
+
+.file-size {
+  font-size: 0.9em;
+  color: #888;
+}
