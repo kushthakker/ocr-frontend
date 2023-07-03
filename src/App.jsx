@@ -41,7 +41,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        `http://127.0.0.1:8000/${type}`,
+        `https://ocr-backend-nqb2.onrender.com${type}`,
         formData
       );
       console.log(response.data);
