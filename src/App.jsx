@@ -31,6 +31,7 @@ function App() {
     if (!type)
       return toast.error("Please select a type", {
         id: "loading",
+        duration: 0, // Set duration to 0 to make the toast persistent
       });
     setLoading(true);
     toast.loading("getting OCR", {
