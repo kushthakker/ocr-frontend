@@ -31,11 +31,12 @@ function App() {
     if (!type)
       return toast.error("Please select a type", {
         id: "loading",
-        duration: 0, // Set duration to 0 to make the toast persistent
+        duration: 0,
       });
     setLoading(true);
     toast.loading("getting OCR", {
       id: "loading",
+      duration: 0,
     });
     const formData = new FormData();
     formData.append("file", file);
