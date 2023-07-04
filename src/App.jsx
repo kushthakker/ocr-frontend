@@ -42,7 +42,6 @@ function App() {
     setLoading(true);
     toast.loading("getting OCR", {
       id: "loading",
-      duration: 0,
     });
     const formData = new FormData();
     formData.append("file", file);
