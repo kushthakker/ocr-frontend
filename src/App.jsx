@@ -33,6 +33,12 @@ function App() {
         id: "loading",
         duration: 0,
       });
+    if (loading)
+      return toast.error("Current request is processing", {
+        id: "loading",
+        duration: 0,
+      });
+
     setLoading(true);
     toast.loading("getting OCR", {
       id: "loading",
