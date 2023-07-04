@@ -31,12 +31,12 @@ function App() {
     if (!type)
       return toast.error("Please select a type", {
         id: "loading",
-        duration: 0,
+
       });
     if (loading)
       return toast.error("Current request is processing", {
         id: "loading",
-        duration: 0,
+
       });
 
     setLoading(true);
@@ -159,7 +159,6 @@ function App() {
         toastOptions={{
           // Define default options
           className: "",
-          duration: 5000,
           style: {
             background: "#363636",
             color: "#fff",
